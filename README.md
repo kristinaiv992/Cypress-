@@ -22,6 +22,9 @@ cypress.json
 }
 
 logs
+
+npm install --sav-dev cypress-failed-log
+
 1. Navigate to support -> index.js
 require('cypress-failed-log')
 
