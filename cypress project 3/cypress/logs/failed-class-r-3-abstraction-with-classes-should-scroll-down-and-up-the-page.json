@@ -1,0 +1,14 @@
+{
+  "specName": "class.spec.js",
+  "title": "Should scroll down and up the page",
+  "suiteName": "Abstraction with Classes",
+  "testId": "r3",
+  "testName": "Abstraction with Classes Should scroll down and up the page",
+  "testError": "The following error originated from your application code, not from Cypress.\n\n  > Cannot set property 'err' of undefined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.",
+  "testCommands": [
+    "visit https://devexpress.github.io/testcafe/example/",
+    "get #submit-button",
+    "scrollIntoView ",
+    "wait 5000"
+  ]
+}
