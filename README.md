@@ -20,3 +20,16 @@ cypress.json
     "pageLoadTimeout": 10000,
     "waitForAnimations": true
 }
+
+logs
+1. Navigate to support -> index.js
+require('cypress-failed-log')
+
+2. Navigate to pluging -> index.js
+module.exports = (on, config) => {
+  addMatchImageSnapshotPlugin(on, config)
+  on('task', {
+      failed: require('cypress-failed-log/src/failed')
+  })
+}
+
