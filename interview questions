@@ -85,4 +85,14 @@ While there are many new and powerful capabilities of Cypress - there are also i
 If you’re interested in understanding more, we’ve written an entire guide on this topic.
 
 
+What is fixture?
+
+Fixtures are blobs of hard coded data, usually recorded from an actual network response. (You could write your own by hand, but I imagine it’d be quite painful.)
+
+If you are trying to test functionality that relies on a network request, test frameworks can artificially insert this fixture data while running the test. The insertion of fake data like this is referred to as stubbing. This has many advantages for tests:
+
+They remove the reliance on a functioning network to make the test work
+You can write tests knowing that the data won’t change
+It speeds up tests, since you’re not actually waiting for a network response
+
 
