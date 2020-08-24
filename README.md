@@ -21,6 +21,24 @@ cypress.json
     "waitForAnimations": true
 }
 
+cypress.json
+
+{
+    "watchForFileChanges": false,
+    "ChromeWebSecurity": false,
+    "viewportWidth": 1000,
+    "viewportHeight": 600,
+    "waitForAnimation": true,
+    "animationDistanceTreshold": 20,
+    "defaultCommandTimeout": 6000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 15000,
+    "responseTimeout": 15000,
+    "video": true,
+    "failOnStatusCode": false
+}
+
 logs
 
 npm install --sav-dev cypress-failed-log
