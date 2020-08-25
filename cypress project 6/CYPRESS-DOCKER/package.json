@@ -1,0 +1,19 @@
+{
+  "name": "cypress-docker",
+  "version": "1.0.0",
+  "description": "cypress with docker",
+  "main": "index.js",
+  "scripts": 
+  { "cy:open": "cypress open", 
+    "cy: run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "docker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.0.0"
+  }
+}
