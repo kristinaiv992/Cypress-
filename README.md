@@ -63,6 +63,7 @@ Step 2: pwd
 Step3: npm run cy:run
 
 ============================================================
+package.json
 {
   "name": "project",
   "version": "1.0.0",
@@ -76,7 +77,8 @@ Step3: npm run cy:run
     "cy:run:chrome": "cypress run --browser chrome",
     "cy:run:firefox": "cypress run --browser firefox",
     "cy:run:edge": "cypress run --browser edge",
-    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true",
+    "start-jenkins-server": "java --jar jenkins.war -httpPort=8080 --enable-future-java"
   },
   "author": "",
   "license": "ISC",
@@ -86,4 +88,5 @@ Step3: npm run cy:run
     "prettier": "^2.1.0"
   }
 }
+
 
