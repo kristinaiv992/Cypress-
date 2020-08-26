@@ -55,8 +55,35 @@ module.exports = (on, config) => {
 }
 
 jenkins:
+
  java -jar jenkins.war -httpPort=8080 --enable-future-java
 
 Step 2: pwd
 
 Step3: npm run cy:run
+
+============================================================
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": 
+  { 
+    "cy:open": "cypress open", 
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key c8fda2cc-8185-488d-a681-408b13f2d194",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^5.0.0",
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.1.0"
+  }
+}
+
