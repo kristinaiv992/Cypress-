@@ -54,3 +54,6 @@ module.exports = (on, config) => {
   })
 }
 
+jenkins:
+ java -jar jenkins.war -httpPort=8080 --enable-future-java
+Step 2: pwd
