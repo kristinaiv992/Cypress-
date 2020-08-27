@@ -2,19 +2,19 @@
 
 # Cypress-
 
-.perttier config: 
+# .perttier config: 
 
 { "semi": false, "singleQuote":true, "useTabs": true, "tabWidth": 2, "bracketSpacing": true, "arrowParens": "avoid", "trailingComma": "es5"
 
 }
 
-package.json
+# package.json
 
 { "name": "cypress-e2e", "version": "1.0.0", "description": "", "main": "index.js", "scripts": { "cy:open": "cypress open", "cy: run": "cypress run"
 
 }, "author": "", "license": "ISC", "dependencies": { "cypress": "^4.12.1", "prettier": "^2.0.5" } }
 
-cypress.json
+# cypress.json
 
 {
     "video": "false",
@@ -23,7 +23,7 @@ cypress.json
     "waitForAnimations": true
 }
 
-cypress.json
+# cypress.json
 
 {
     "watchForFileChanges": false,
@@ -41,7 +41,7 @@ cypress.json
     "failOnStatusCode": false
 }
 
-logs
+# logs
 
 npm install --sav-dev cypress-failed-log
 
@@ -56,7 +56,7 @@ module.exports = (on, config) => {
   })
 }
 
-jenkins:
+# jenkins:
 
  java -jar jenkins.war -httpPort=8080 --enable-future-java
 
@@ -65,7 +65,7 @@ Step 2: pwd
 Step3: npm run cy:run
 
 ============================================================
-package.json
+# package.json
 {
   "name": "project",
   "version": "1.0.0",
