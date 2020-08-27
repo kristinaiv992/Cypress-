@@ -1,4 +1,8 @@
-# npx cypress open
+1. npx init
+
+2. npm install cypress prettier  
+
+3. npx cypress open
 
 # Cypress-
 
