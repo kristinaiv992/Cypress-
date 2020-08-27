@@ -1,3 +1,5 @@
+# npx cypress open
+
 # Cypress-
 
 .perttier config: 
