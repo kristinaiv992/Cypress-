@@ -96,3 +96,6 @@ Step3: npm run cy:run
 }
 
 
+**At the top of the page **
+/// <reference types="Cypress" />
+
