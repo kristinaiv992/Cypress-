@@ -1,4 +1,4 @@
-1. npx init
+1. npx init   // alternative npm i -g npx 
 
 2. npm install cypress prettier  
 
