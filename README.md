@@ -12,6 +12,20 @@
 
 }
 
+# .tsconfig config: 
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "../node_modules",
+    "types": [
+      "cypress"
+    ]
+  },
+  "include": [
+    "**/*.*"
+  ]
+}
+
 # package.json
 
 { "name": "cypress-e2e", "version": "1.0.0", "description": "", "main": "index.js", "scripts": { "cy:open": "cypress open", "cy: run": "cypress run"
