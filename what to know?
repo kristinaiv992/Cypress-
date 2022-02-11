@@ -30,14 +30,15 @@ Configure prettier:
 7. right click on the cypress icon and add a file tsconfig.json
 
 =======================================================================================
-8. Order to configure the way we are running cypress, we need to configure it in the pachage jason and use the command npm run: cy open in the console 
+8. In order to configure the way we are running cypress, we need to configure it in the pachage jason and use the command npm run: cy open in the console 
 {
   "name": "cypress",
   "version": "1.0.0",
   "description": "Automated software testing with cypress",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "keywords": [
     "cypress",
