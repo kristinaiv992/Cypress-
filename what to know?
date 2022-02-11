@@ -5,3 +5,29 @@ Most Popular Framework, Fast and stable tests, good documentation, easy to learn
  Visual Studio Code, Atom, Sublime Text, WebStorm (not free)
 
 <h3> How to install and Setup Cypress? </h3>
+1. Download npm (firstly npm init and afterwards npm install)
+2. npm install cypress
+3. Install Prettier? - Automation code formatter (prevent conflicts in code reviews and ..)
+npm install prettier
+Configure prettier:
+-----------------
+1. Name the file .prettierrc
+2. Add these:
+{
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": true, 
+    "tabWidth": 2, 
+    "bracketSpacing": true,
+    "arrowParens": "avoid", 
+    "trailingComma": "es5"
+}
+
+4. Install another Intelligent Code Completion Dependency
+
+5. Start the cypress: npx cypress open
+6. After running the cypress a folder will be created that displayes Cypress
+7. right click on the cypress icon and add a file tsconfig.json
+
+=======================================================================================
+
